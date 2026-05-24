@@ -30,7 +30,17 @@ public class LinearSearch{
         int key = sc.nextInt();
         linearSearch(arr , key);
         sc.close();
+        }
     }
+
+class LinearSearchDemo{
+    public static void main(String[] args){
+        int arr[] = { 12,3,4,1,6,9};
+        int key = 1;
+        LinearSearch.linearSearch(arr, key);
+        
+        
 
 
     }
+}
