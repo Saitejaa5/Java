@@ -16,7 +16,6 @@ public class LinearSearch{
             }else{
                 System.out.println("Key found");
             }
-        
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -30,7 +29,8 @@ public class LinearSearch{
         System.out.println("Enter key to be searched ");
         int key = sc.nextInt();
         linearSearch(arr , key);
-        sc.close();}
+        sc.close();
+    }
 
 
     }
